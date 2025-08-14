@@ -1,15 +1,10 @@
-# Solidity Next.js Starter
+# Dapp sample by nest.js
 
 A starter repository for building full stack Ethereum dApps with [Solidity](https://soliditylang.org/) and [Next.js](https://nextjs.org/).
 
 This code is for anyone looking to quickly bootstrap an EVM dApp using modern best practices. In particular, developers with existing JavaScript/TypeScript experience who're newer to Solidity.
 
 If you want to learn how to interact with a simple smart contract from the client side, this repository is for you.
-
-![Solidity + Next.js Starter](./screenshot.png)
-
-- [Get started](#getting-started)
-- [Read changelog](./CHANGELOG.md)
 
 ## Packages
 
@@ -79,10 +74,6 @@ Solidity Next.js Starter uses Yarn workspaces, so this will install the relevant
 
 Enter the `contracts` folder with `cd packages/contracts` and start your local hardhat node with `yarn start`. If you're successful, you'll be presented with a number of accounts (one of which you'll need later). Here's an example:
 
-```bash
-Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000 ETH)
-Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
-```
 
 In a new terminal window, deploy the `Greeter` contract using `yarn deploy`. If you're successful, you'll get a contract address (that you'll also need later) like this:
 
@@ -195,10 +186,6 @@ Here's an app I deployed earlier: [https://solidity-nextjs-starter-app.vercel.ap
 I built this to onboard myself to web3. Since 2021, Solidity Next.js Starter has amassed 100s of GitHub stars and helped devs land dream gigs in the space.
 
 ![A tweet exchange](./why-i-built-this.png)
-
-## Contributions
-
-All suggestions for improvement are welcome. Please submit a [pull request](https://github.com/tomhirst/solidity-nextjs-starter/pulls) to contribute.
 
 ## Disclaimer
 
