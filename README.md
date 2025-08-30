@@ -43,7 +43,6 @@ If you want to learn how to interact with a simple smart contract from the clien
 - [wagmi](https://wagmi.sh/)
 - [RainbowKit](https://www.rainbowkit.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Prettier](https://prettier.io/)
 
 #### App Scripts
 

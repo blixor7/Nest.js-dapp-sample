@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 const config = getDefaultConfig({
   appName: 'Solidity Next.js Starter',
   projectId: process.env.NEXT_PUBLIC_RAINBOWKIT_PROJECT_ID ?? "",
-  chains: [hardhat, sepolia],
+  chains: [hardhat, sepolia ],
   ssr: true,
 });
 
